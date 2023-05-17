@@ -1,0 +1,98 @@
+/*Small separator*/
+.wp-block-separator{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.image-separator{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {background-color:#000000;}
+.header--row-inner, .container {background-color:#000000;}
+.header-menu-sidebar-bg {background-color:#3e3832;}
+.footer--row {display:none;}
+.is-layout-flow, .wp-block-column {vertical-align:center;
+display: flex;
+  justify-content: center;
+  flex-direction: column;}
+.nv-big-title {display:none;}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+	top:140px;
+ min-width: 80%;
+  height: 80%;
+}
+.boop {float: left !important;
+  display: inline-block;}
+@font-face {
+  font-family: SATAM;
+  src: url(https://ablaq.com/orcnation/fonts/SATAM.TTF);
+}
+.site-title {font-family:SATAM; color:#ffffff;}
+a {  font-family:SATAM;  --color: #ffffff;
+    --hovercolor: #474747;
+    --hovertextcolor: var(--nv-text-color);
+    --activecolor: #ffffff;}
+h1 {display:none; line-height:1px;}
+@font-face {
+  font-family: Roman-Antique;
+  src: url(https://ablaq.com/orcnation/fonts/Roman-Antique.ttf);
+}
+body, h1, h2, h2, h3, h4, h5, h6 {font-family: Roman-Antique;
+line-height:1.8rem; clear:both;}
+p, body {font-size:1.4rem;}
+h2 {line-height:1.5rem; font-family:SATAM; color:#a02216;}
+h4 {font-size:2.25rem;line-height:1.5rem; font-family:SATAM; color:#a02216;}
+.nv-single-page-wrap {padding-top: 5px; padding-left: 1%; padding-right: 1%; margin:5%; margin-top:5%; color:#ffffff;}
+.black-contain {margin:15px; min-height:400px; vertical-align:top; padding:5%; background-color:#1b1b1b; color:#ffffff; border-width: 3px; border-style: ridge; 
+     border-color: #c5ac71;
+   -moz-box-shadow:inset 0 0 20px black;
+   -webkit-box-shadow:inset 0 0 20px black;
+   box-shadow:inset 0 0 20px black;}
+.black-nav {clear:both; margin:20px 12%; vertical-align:center; text-align: center; padding:0 1%; background-color:#1b1b1b; color:#ffffff; border-width: 3px; border-style: ridge; border-color: #c5ac71; -moz-box-shadow:inset 0 0 20px black; -webkit-box-shadow:inset 0 0 20px black;
+   box-shadow:inset 0 0 20px black;}
+.tribenav {float: left; width:150px;  margin-top:-20px; margin-right:5%}
+.perimage {
+     
+    position: abolute; 
+    margin-left: 33%;
+    margin-top:-88px;
+}
+.perimage2 {
+     
+    position: abolute; 
+    margin-left: 37%;
+    margin-top:-100px;
+}
+.main-contain {background-image: url(https://ablaq.com/orcnation/wp-content/uploads/2022/12/orc-background.jpg);
+padding: 3%; margin:5%; margin-top:5%;
+color:#000000;
+  border-radius:0%;
+  background-color: #000000;
+  -webkit-animation: glowing 1s ease-in-out infinite alternate;
+  -moz-animation: glowing 1s ease-in-out infinite alternate;
+  animation: glowing 1s ease-in-out infinite alternate;
+	animation-duration: 3.5s; 
+	
+}
+
+.rarity {width:200px; margin:17px; float:left; background-color:#000000; }
+.nftimage {text-align:center; color:#ffffff; font-size:1rem;}
+.rate {text-align:center; color:#ffffff; }
+.tribecount {text-align:center; color:#ffffff; font-size:1rem;}
+.nationcount {text-align:center; color:#ffffff; font-size:1rem;}
+@-webkit-keyframes glowing {
+  from {
+    box-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #ff9900, 0 0 40px #0ff, 0 0 50px #ff9900, 0 0 60px #ff9900, 0 0 70px #ff9900;
+  }
+  to {
+    box-shadow: 0 0 20px #000, 0 0 30px #ff9900, 0 0 40px #ff9000, 0 0 50px #ff9900, 0 0 60px #ff9000, 0 0 70px #ff9900, 0 0 80px #ff9000;
+  }
+}
+}
